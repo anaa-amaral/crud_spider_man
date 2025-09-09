@@ -47,8 +47,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <?php if (!empty($_SESSION["user_pk"])): ?>
   <div class="card">
-    <h3>Bem-vindo, <?= $_SESSION["usarname"] ?>!</h3>
-    <p>Sessão ativa.</p>
+     <?= $_SESSION["usarname"] ?>
+    <p>Sua sessão foi encerrada! Clique aqui para logar novamente.</p>
     <p><a href="?logout=1">Sair</a></p>
   </div>
 

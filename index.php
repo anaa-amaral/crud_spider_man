@@ -75,6 +75,7 @@
     <section id="baixo">
 
         <p> Gostou de aprender sobre Miles? para saber mais acesse o site https//herois.super.legais.com.br ou ligue 47 987654329  </p>
+        <a href="login.php">Sair</a>
 
     </section>
 

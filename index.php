@@ -9,7 +9,7 @@
 <header>
 
     <div id="navbar"> 
-        <img id="iconespider" src="imagens/logo.png" alt="Logo Spider Man">
+        <img id="iconespider" src="assets/logo.png" alt="Logo Spider Man">
         <h1 id="titulo"> Homem-aranha no aranha verso!</h1>
     </div>
 
@@ -20,8 +20,8 @@
         <div class="informacao">
             <div class="foto">
                 
-                <img src="imagens/miles 1.png" alt="Miles morales">
-                <img src="imagens/miles 2.jpg" alt="Miles Morales">
+                <img src="assets/miles 1.png" alt="Miles morales">
+                <img src="assets/miles 2.jpg" alt="Miles Morales">
 
             </div>
             <h2> Conheça um pouquinho mais sobre nosso novo Herói!</h2>
@@ -32,8 +32,8 @@
         <div class="informacao">
             <div class="foto">
 
-                <img src="imagens/miles e mae.jpg" alt="Miles morales e sua mãe">
-                <img src="imagens/familia 2.jpg" alt="Familia Morales">
+                <img src="assets/miles e mae.jpg" alt="Miles morales e sua mãe">
+                <img src="assets/familia 2.jpg" alt="Familia Morales">
 
             </div>
             <h2> Conheça um pouquinho mais sobre a familia de nosso novo Herói!</h2>
@@ -45,7 +45,7 @@
         
         <div class="vilao">
            
-              <img src="imagens/miles e mancha.jpg" alt="Vilão de Aranhaverso">
+              <img src="assets/miles e mancha.jpg" alt="Vilão de Aranhaverso">
             
 
             <h2> Mancha, o inimigo de Miles</h2>
@@ -53,14 +53,14 @@
         </div>
         <div class="vilao">
             
-              <img src="imagens/miles e amigos.jpg" alt="Heróies amigos de Miles">
+              <img src="assets/miles e amigos.jpg" alt="Heróies amigos de Miles">
             
             <h2>  Conheça os amigos heróis de Miles! </h2>
             <p> Em histórias subsequentes, Miles conhece os entes queridos de Peter Parker, May Parker, Gwen Stacy e Mary Jane Watson, que conhecem sua identidade secreta, e dão a ele os web shooters de Parker. Ele também encontra o Capitão América, que relutantemente concorda em treinar Miles.</p>
         </div>
         <div class="vilao">
             
-              <img src="imagens/miles e gwen.jpg" alt="Miles e sua namorada">
+              <img src="assets/miles e gwen.jpg" alt="Miles e sua namorada">
             
             <h2>  Conheça Gwen, namorada de Miles! </h2>
             <p> No caso de Gwen Stacy, ela é apresentada como a "primeira e única Mulher-Aranha". Tal como o Peter Parker alternativo que Miles Morales conhece, também ela viajou involuntariamente pelo multiverso.</p>

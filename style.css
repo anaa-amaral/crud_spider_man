@@ -1,0 +1,101 @@
+body{ 
+    margin: 0px;
+    padding: 0px;   
+    border: 20px; 
+    background-color: rgb(69, 77, 187);
+    color: rgb(27, 22, 90);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+#navbar{ 
+        margin: 0px;
+        padding: 5px;
+        background-color: rgb(235, 104, 104);
+        color:rgb(148, 29, 29);
+        text-align: center;
+    }
+    
+#informacoes{
+        margin: 10px;
+        padding: 5px;
+        background-color: rgb(167, 151, 253);
+        display: flex;
+        border: 20px;
+    }
+    
+#iconespider{
+        width: 250px;
+        height: 200px;
+    }
+    
+img{
+        width: 400px;
+        height: 300px;
+    }
+        
+.foto{
+
+        display: flex;
+    } 
+    
+
+.informacao{
+        margin: 10px;
+        padding: 50px;
+        background-color: rgb(167, 151, 253);
+        border: 5px;
+        border-style: solid;
+        border-color: rgb(29, 27, 92);
+        text-align: center;
+    }
+    
+#viloes{
+        margin: 10px;
+        padding: 5px;
+        background-color: rgb(167, 151, 253);
+        display: flex;
+        text-align: center;
+    }
+
+.vilao{
+        margin: 50px;
+        padding: 50px;
+        background-color: rgb(167, 151, 253);
+        border: 5px;
+        border-style: solid;
+        border-color: rgb(29, 27, 92);
+    
+    }
+
+#titulo{
+        margin: 0;
+        padding: 5px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+#baixo{
+        text-align: center;
+        background-color: rgb(27, 22, 90);
+        padding: 15px;
+        color: white;
+    }
+
+.card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 6px
+  }
+
+  input {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0
+  }
+
+  button {
+      padding: 8px 12px
+  }
+
+  .msg {
+      color: red
+  }

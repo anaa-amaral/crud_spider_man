@@ -15,10 +15,10 @@ if (isset($_GET['logout'])) {
 
 $msg = "";
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $user = $_POST["username"] ?? "";
-    $pass = $_POST["password"] ?? "";
+    $user = $_POST["usarname"] ?? "";
+    $pass = $_POST["senha"] ?? "";
 
-    $stmt = $mysqli->prepare("SELECT id, username, senha FROM usuarios WHERE username=? AND senha=?");
+    $stmt = $mysqli->prepare("SELECT pk, usarname, senha FROM usuarios WHERE usarname=? AND senha=?");
     $stmt->bind_param("ss", $user, $pass);
     $stmt->execute();
     $result = $stmt->get_result();
@@ -26,8 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $stmt->close();
 
     if ($dados) {
-        $_SESSION["user_id"] = $dados["id"];
-        $_SESSION["username"] = $dados["username"];
+        $_SESSION["user_pk"] = $dados["pk"];
+        $_SESSION["usarname"] = $dados["usarname"];
         header("Location: login.php");
         exit;
     } else {
@@ -45,9 +45,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </head>
 <body>
 
-<?php if (!empty($_SESSION["user_id"])): ?>
+<?php if (!empty($_SESSION["user_pk"])): ?>
   <div class="card">
-    <h3>Bem-vindo, <?= $_SESSION["username"] ?>!</h3>
+    <h3>Bem-vindo, <?= $_SESSION["usarname"] ?>!</h3>
     <p>Sessão ativa.</p>
     <p><a href="?logout=1">Sair</a></p>
   </div>
@@ -57,8 +57,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <h3>Login</h3>
     <?php if ($msg): ?><p class="msg"><?= $msg ?></p><?php endif; ?>
     <form method="post">
-      <input type="text" name="username" placeholder="Usuário" required>
-      <input type="password" name="password" placeholder="Senha" required>
+      <input type="text" name="usarname" placeholder="Usuário" required>
+      <input type="password" name="senha" placeholder="Senha" required>
       <button type="submit">Entrar</button>
     </form>
     <p><small>Dica: admin / 123</small></p>

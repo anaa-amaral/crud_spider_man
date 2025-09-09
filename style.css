@@ -84,19 +84,19 @@ img{
       border: 1px solid #ccc;
       padding: 20px;
       border-radius: 6px;
-      margin: 10%;
+      margin: 15% 10%;
   }
 
-  input {
+input {
       width: 100%;
       padding: 8px;
       margin: 6px 0;
   }
 
-  button {
+button {
       padding: 8px 12px;
   }
 
-  .msg {
+.msg {
       color: red;
   }

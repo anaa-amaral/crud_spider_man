@@ -83,19 +83,20 @@ img{
 .card {
       border: 1px solid #ccc;
       padding: 20px;
-      border-radius: 6px
+      border-radius: 6px;
+      margin: 10%;
   }
 
   input {
       width: 100%;
       padding: 8px;
-      margin: 6px 0
+      margin: 6px 0;
   }
 
   button {
-      padding: 8px 12px
+      padding: 8px 12px;
   }
 
   .msg {
-      color: red
+      color: red;
   }

@@ -61,7 +61,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <input type="password" name="senha" placeholder="Senha" required>
       <button type="submit">Entrar</button>
     </form>
-    <p><small>Dica: admin / 123</small></p>
   </div>
 <?php endif; ?>
 

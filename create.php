@@ -4,6 +4,18 @@
     <link rel="stylesheet" href="style.css">
     <title>criar novo usuário</title>
 </head>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso você não tenha cadastro ainda, crie seu cadastro:</title>
+</head>
+
+<body>
+<div class="card">
+    
 <?php
 
 include 'db.php';
@@ -25,17 +37,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 ?>
 
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caso você não tenha cadastro ainda, crie seu cadastro:</title>
-</head>
-
-<body>
-<div class="card">
     <h3>Crie seu cadastro</h3>
     <form method="post" action="create.php">
       <input type="text" name="usarname" placeholder="Usuário" required>

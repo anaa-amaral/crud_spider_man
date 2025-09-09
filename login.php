@@ -66,6 +66,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <input type="text" name="usarname" placeholder="Usuário" required>
       <input type="password" name="senha" placeholder="Senha" required>
       <button type="submit">Entrar</button>
+      <br>
+      <br>
       <a href="create.php">Clique aqui caso não tenha cadastro</a>
     </form>
   </div>
